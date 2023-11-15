@@ -1,0 +1,62 @@
+/* Définition de classes */
+
+
+    
+.classe{ 
+    font-family: Product Sans, Calibri, Arial;
+    background-color: #323738
+
+}
+
+body
+{
+    background-image: url("Jungle.jpg");
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    opacity: 0.95;
+}
+
+h1{
+    color:#02AAEA;
+    border-bottom: 5px #02AAEA groove;
+    box-shadow: 6px 6px 10px #02AAEA;
+    font-family: Product Sans, Calibri, Arial;
+}  
+
+p{
+    color: #E91189;
+    text-align: center;
+    padding: 20px;
+
+}
+
+a{
+text-decoration: none;
+}
+
+
+#Paragraphe1{
+    font-size: 20px; /* Paragraphes de 20 pixels */
+    text-align: center;
+    color: #ECEA64;
+    border: 5px #ECEA64 groove; 
+    border-radius: 50px;
+    box-shadow: 6px 6px 10px #02AAEA;
+    text-shadow: 2px 2px 5px #ECEA64;;
+}
+
+
+#Blocdecontenu1{
+    width : 1200px;
+    margin: 0 auto;
+    /*background-color:  #66696A;*/
+    text-align: center;
+    align-content: center;
+}
+
+
+/*changement de la couleur des liens quand on les survoles*/
+a:hover{ color: yellow;}
+
+p:hover{ text-shadow: 6px 6px 6px #ECEA64;}

@@ -1,0 +1,259 @@
+/*Choix de police sur fontsquirrel copier coller les codes*/
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+
+
+body{
+    border-top-style: solid;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+    border-top-width: 0px;
+    /*background-image: url("Jungle.jpg");*/
+    /*#9FC2D6*/
+    background-color: #ACDEF9;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    opacity: 1;
+    
+}
+
+
+.bouton{
+    width: 15.66vw;
+    font-size: 1.7em;
+    font-family: Product Sans;
+    color: #323738;
+    padding-top: 12px;
+    height: 48px;
+    text-align: center;
+}
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+/*div[title*="bouton"]:hover{
+    background-color: #02AAEA;
+    align-content: center;
+}*/
+
+.bouton:hover{
+    background-color: #02AAEA;
+    align-content: center;
+}
+
+
+.contenant{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 40px;
+}
+
+.hotline{
+    display: flex;
+    justify-content: center; 
+}
+
+
+a{
+text-decoration: none;
+}
+
+
+p{
+    color: #323738    ;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    font-size: 1em;
+    font-family: Calibri;
+}
+
+
+h1{
+    color: #ACDEF9;
+    text-align: center;
+    align-content: center c;
+    padding: 00px;
+    font-size: 3em;
+    font-family: Product Sans, Calibri;
+}
+
+h6{
+    color: #1C6782;
+    text-align: center;
+    align-content: center c;
+    padding: 00px;
+    font-size: 3em;
+    font-family: Product Sans, Calibri;
+}
+
+
+
+h2{
+    color: #1C6782;
+    text-align: center;
+    align-content: center c;
+    justify-content: space-between;
+    padding: 00px;
+    font-size: 2em;
+    font-family: Product Sans, Calibri;
+}
+
+#Menu{
+    border: 2px solid #1C6782;
+    display: flex;
+    justify-content: space-between;
+    background-color: #66696A;
+    
+}
+
+
+#Petit_Logo{
+    align-content: center;
+    z-index: 4;
+}
+
+
+/*Mieux : Utiliser flexbox pour le positionement*/
+#Bloc{
+    position : fixed;
+    top: 0px;
+    right: 0px;
+    width : 150px;
+    height : 150px;
+}
+
+
+
+/*Pour le formulaire*/
+:required
+{
+    background-color: red;
+}
+
+div[id="fb"]:hover{
+    opacity: 0;  
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+div[id="insta"]:hover{
+    opacity: 0;  
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+div[id="crepes"]:hover{
+    opacity: 0;  
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;   
+}
+
+
+div[id="hotdog"]:hover{
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+div[id="boisson"]:hover{
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+div[id="beuh"]:hover{
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+div[id="vaisselle"]:hover{
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+div[id="mystere"]:hover{
+    opacity: 0; 
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;  
+}
+
+
+
+div[id="fleuriste"]:hover{
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;      
+}
+
+
+/*
+@media (max-width: 950px){
+    body{width: auto;}
+
+    #Menu{
+        border: 1px solid #1C6782;
+        display: list-item;
+        justify-content: center;
+        background-color: #66696A;       
+    }
+    
+    .bouton{
+        width: 30vw;
+        font-size: 1.3em;
+        font-family: Product Sans;
+        color: #323738;
+        height: 1.7  em;
+        text-align: center;
+        position : relative;
+    }
+
+    header {
+        position:absolute;
+        z-index: 3;
+    }
+
+    .contenant{
+        display: list-item;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    */
